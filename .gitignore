@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Metallic.tga
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Height.tga.meta
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Height.tga
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Diffuse.tga.meta
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Diffuse.tga
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga.meta
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9_Ambient_Occlusion.tga
+IVRC/Assets/ADG_Textures/ground_vol1/ground9/ground9.mat.meta
