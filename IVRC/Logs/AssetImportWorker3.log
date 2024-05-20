@@ -1,0 +1,624 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 16124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/rui02/unity_project/IVRC/IVRC
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54373
+Successfully changed project path to: C:/Users/rui02/unity_project/IVRC/IVRC
+C:/Users/rui02/unity_project/IVRC/IVRC
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5136] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 3412186717 [EditorId] 3412186717 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5136] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 3412186717 [EditorId] 3412186717 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 7.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rui02/unity_project/IVRC/IVRC/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007185 seconds.
+- Loaded All Assemblies, in  0.288 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 507ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.472 seconds
+Domain Reload Profiling: 1063ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (181.8 KB). Loaded Objects now: 4734.
+Memory consumption went from 153.5 MB to 153.3 MB.
+Total: 4.634500 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.267200 ms MarkObjects: 3.677900 ms  DeleteObjects: 0.251400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340062.945082 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/Grey.mat
+  artifactKey: Guid(07bcd4e0597eb0648b7a45624f2e0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/Grey.mat using Guid(07bcd4e0597eb0648b7a45624f2e0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b30531012dbe48bae10ef20ebbe48f') in 0.133535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonPop.mat
+  artifactKey: Guid(2d01d8c885250364bac66a45791f02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonPop.mat using Guid(2d01d8c885250364bac66a45791f02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fee441d47a9a60383ea2839d439f6f') in 0.062041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/Flower.prefab
+  artifactKey: Guid(8a2487c189a464148aadc3af2effa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/Flower.prefab using Guid(8a2487c189a464148aadc3af2effa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9367fc1c330e75d6b8425533113cac09') in 0.086614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalk.fbx
+  artifactKey: Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalk.fbx using Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d1267f166663646d53d3ec318096db') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireSmall.prefab
+  artifactKey: Guid(9471d2206e57ca246a4bf982f3c29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireSmall.prefab using Guid(9471d2206e57ca246a4bf982f3c29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133ad38a2a11c01548169e73c6929f70') in 0.065468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerButtonHints.mat
+  artifactKey: Guid(11b050e661ec0cf48a289a7266451e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerButtonHints.mat using Guid(11b050e661ec0cf48a289a7266451e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61f1636c68fa4bd151f7465e59394f1') in 0.054655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdleJumpUp.fbx
+  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0f37d06cc0b4936a3f75737235f016') in 0.007130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab
+  artifactKey: Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab using Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37e5feb6170b72a8852ae9f544d2cc') in 0.334721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Longbow.fbx
+  artifactKey: Guid(e694f124da5bfd84d97e67e8c2719420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Longbow.fbx using Guid(e694f124da5bfd84d97e67e8c2719420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b40ce1fd7ec9b70b4ffdc4ccab36c2') in 0.044357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/ItemPickupOutline.mat
+  artifactKey: Guid(3d938759d8b7a414988ec3261fb5265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/ItemPickupOutline.mat using Guid(3d938759d8b7a414988ec3261fb5265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b22e8196d42c796127cbbc9055059f') in 0.075902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeff.fbx
+  artifactKey: Guid(f50eaab9ff2788842bdf5c2875f3778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeff.fbx using Guid(f50eaab9ff2788842bdf5c2875f3778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648e5ef2d9d20d8873ef5d9b15987e7d') in 0.025502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat
+  artifactKey: Guid(08a3af2fbc23c4bcaae0c29e0708051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/body_color_map.mat using Guid(08a3af2fbc23c4bcaae0c29e0708051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9b9a5f2ec9079ebd2f4cb7af5d11c9') in 0.012720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx
+  artifactKey: Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx using Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693e31c93ffc9d3da17fdded1bac2e4c') in 0.060037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/Materials/def.mat
+  artifactKey: Guid(70c66109a93f33a4ead799f58a6b9ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Materials/def.mat using Guid(70c66109a93f33a4ead799f58a6b9ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8a76804f1ee7a6823ada0df71d8335') in 0.013933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX
+  artifactKey: Guid(a051f9ee8d34e4038b0539c5ab5f6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX using Guid(a051f9ee8d34e4038b0539c5ab5f6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a4f040752d7c7d3d6ced546760a40b') in 0.058751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JJHat.fbx
+  artifactKey: Guid(b3ac77097923838428fea9044967ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JJHat.fbx using Guid(b3ac77097923838428fea9044967ced5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44ec5d1af655fbb816fa9888a56083') in 0.044996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Grenade/Grenade.mat
+  artifactKey: Guid(7156e712e2c3e7944a1ccdaf56734abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Grenade/Grenade.mat using Guid(7156e712e2c3e7944a1ccdaf56734abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d6b3414fc924f66f600cd931714d0') in 0.035302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowItemPackage.prefab
+  artifactKey: Guid(98a3ad29136d5c04f8a025adf1cbd704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowItemPackage.prefab using Guid(98a3ad29136d5c04f8a025adf1cbd704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868b963f5c8800a481b7e75b432862f') in 0.022857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 457
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat
+  artifactKey: Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat using Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9f14f05bb0ddb36ab13a2113289a61') in 0.016181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture.mat
+  artifactKey: Guid(44849d41e6077f145a95f87372b6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture.mat using Guid(44849d41e6077f145a95f87372b6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02b5b901db127af27ff6ad866658b6f') in 0.026464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX
+  artifactKey: Guid(d64509b2dde084cefa0b990dab96e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX using Guid(d64509b2dde084cefa0b990dab96e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971dd39cf938caad6823588a06579fa5') in 0.059672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/BuggyController.mat
+  artifactKey: Guid(aa587069092ad614eab6b0d694a87c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/BuggyController.mat using Guid(aa587069092ad614eab6b0d694a87c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e804797951f4e87cebe0a5059488bfca') in 0.012815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat
+  artifactKey: Guid(ca7d34d59a8424cc5a2fecb099a96a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Materials/face_color_map.mat using Guid(ca7d34d59a8424cc5a2fecb099a96a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89482e0556caaad36efde862bbc4a26d') in 0.013483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab
+  artifactKey: Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab using Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a459c83a3484dfb787e11b503c0300f6') in 0.026878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel.prefab
+  artifactKey: Guid(8ade79fed86bbd141926d1cd94c98457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel.prefab using Guid(8ade79fed86bbd141926d1cd94c98457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460072a89d7987a0ee542dc3ea404e21') in 0.014750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/fabric 1.mat
+  artifactKey: Guid(be0b1dee5fea4ea40909e542a9a5fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/fabric 1.mat using Guid(be0b1dee5fea4ea40909e542a9a5fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3592f73b8b05afe47ae05370b8dcf6') in 0.192925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/Models/Materials/floppyHand.mat
+  artifactKey: Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/Materials/floppyHand.mat using Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641eaf9d4776070298b17ef901384245') in 0.020040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/RootMotion/FinalIK/_DEMOS/Assets/Mech Spider/MechSpider.FBX
+  artifactKey: Guid(82208e5c7c5f0435f95611cf7eb61237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/FinalIK/_DEMOS/Assets/Mech Spider/MechSpider.FBX using Guid(82208e5c7c5f0435f95611cf7eb61237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c226e9d7c5a883acebf6dc43f368d') in 0.092392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Up.FBX
+  artifactKey: Guid(4ff109f53b9de440b87e4e3a9fa99892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Aim MP-40/Aim MP-40 Standing Up.FBX using Guid(4ff109f53b9de440b87e4e3a9fa99892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c50343a28c64a2865fa056a1900d6') in 0.004355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 14.136503 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_03_D.TGA
+  artifactKey: Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Texture/T_Rock_03_D.TGA using Guid(0f51354c336ddcb449e55ce5b7f20266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b03fdd7dc2e9a22a60798c33e4257b4') in 0.033714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rock Package/Texture/T_Rock_05_N.TGA
+  artifactKey: Guid(713a57a8813e0be4b8884de6e5feb7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Texture/T_Rock_05_N.TGA using Guid(713a57a8813e0be4b8884de6e5feb7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee49133066ceee933e90b5081844c4b2') in 0.032300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.258790 seconds.
+  path: Assets/Rock Package/Prefabs/Rock_05.prefab
+  artifactKey: Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Package/Prefabs/Rock_05.prefab using Guid(5d10ae558efe6a64d96e5b4d02ec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c24cb432e277191e37f974ab4e55cc3') in 0.109212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.751 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (653ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (3.9 MB). Loaded Objects now: 4950.
+Memory consumption went from 171.9 MB to 168.0 MB.
+Total: 3.365300 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.124700 ms  DeleteObjects: 0.890500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 18.846 seconds
+Domain Reload Profiling: 19877ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (825ms)
+		LoadAssemblies (770ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (18847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (697ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'HDRP/Unlit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'HDRP/LitTessellation': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'HDRP/TerrainLit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'HDRP/LayeredLit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'HDRP/AxF': fallback shader 'Hidden/HDRP/FallbackError' not found
+Refreshing native plugins compatible for Editor in 7.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 383 unused Assets / (36.8 MB). Loaded Objects now: 8132.
+Memory consumption went from 332.1 MB to 295.3 MB.
+Total: 11.885400 ms (FindLiveObjects: 0.453200 ms CreateObjectMapping: 0.302900 ms MarkObjects: 2.480700 ms  DeleteObjects: 8.647700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
