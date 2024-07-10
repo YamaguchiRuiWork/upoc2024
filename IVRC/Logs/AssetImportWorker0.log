@@ -15,7 +15,7 @@ C:/Users/rui02/unity_project/IVRC/IVRC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54373
+56038
 Successfully changed project path to: C:/Users/rui02/unity_project/IVRC/IVRC
 C:/Users/rui02/unity_project/IVRC/IVRC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/rui02/unity_project/IVRC/IVRC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23980] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 1228424646 [EditorId] 1228424646 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25860] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 17851831 [EditorId] 17851831 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23980] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 1228424646 [EditorId] 1228424646 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25860] Host "[IP] 192.168.11.143 [Port] 0 [Flags] 2 [Guid] 17851831 [EditorId] 17851831 [Version] 1048832 [Id] WindowsEditor(7,YamaguchiRui) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 7.12 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 8.33 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005109 seconds.
-- Loaded All Assemblies, in  0.289 seconds
+Registered in 0.005248 seconds.
+- Loaded All Assemblies, in  0.263 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.210 seconds
-Domain Reload Profiling: 498ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.185 seconds
+Domain Reload Profiling: 447ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (90ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (211ms)
+	FinalizeReload (186ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (159ms)
+		SetupLoadedEditorAssemblies (143ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,188 @@ Domain Reload Profiling: 498ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.594 seconds
-Refreshing native plugins compatible for Editor in 3.89 ms, found 6 plugins.
+Symbol file data-000001E8918AD010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FEDD7E0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FEE5BF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD2E870 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89193A010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD2E870 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89193A010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89193A010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD44280 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCC7A40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89193A010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FF42020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891517CE0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891517CE0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD44280 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD44280 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F354C90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F354C90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Utils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F354C90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F358EA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8920B8470 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F358EA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F358EA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F358EA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8915590F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891971620 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891780FC0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891780FC0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8915590F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8915590F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892155420 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891780FC0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.Format.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8920CF880 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89220FC30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891971620 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B94010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8922B3010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892180A30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Samples.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8920DB690 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892180A30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B94010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\FastSpringBone.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B94010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B94010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891780FC0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BA9C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891F22020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891981630 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891AB6A60 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FE95820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BD8E50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniVRM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891AB6A60 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BD8E50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BD8E50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891ACE870 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BD8E50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891AE5680 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5A1040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B26E90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5A1040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5A1040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5A1040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B26E90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891BE1C60 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B26E90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891DC1430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5A1040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B26E90 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B2D8A0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B2D8A0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891B2D8A0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F4B9000 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8935F1FA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F4B9000 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89362A9B0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89362A9B0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8936329C0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8936329C0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8936329C0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89363B7D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -135,290 +315,619 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.474 seconds
-Domain Reload Profiling: 1067ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1711ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (406ms)
-		LoadAssemblies (259ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (165ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (474ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (873ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
+		SetupLoadedEditorAssemblies (717ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.70 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (181.8 KB). Loaded Objects now: 4734.
-Memory consumption went from 153.5 MB to 153.3 MB.
-Total: 4.936200 ms (FindLiveObjects: 0.490800 ms CreateObjectMapping: 0.235800 ms MarkObjects: 3.931800 ms  DeleteObjects: 0.276200 ms)
+Unloading 7951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 244 unused Assets / (13.9 MB). Loaded Objects now: 8319.
+Memory consumption went from 350.2 MB to 336.3 MB.
+Total: 5.509600 ms (FindLiveObjects: 0.457700 ms CreateObjectMapping: 0.278400 ms MarkObjects: 2.730900 ms  DeleteObjects: 2.041400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4859.999102 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab
+  artifactKey: Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab using Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ce79301b6cdc367411784650df1421') in 0.144649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.70 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (13.9 MB). Loaded Objects now: 8326.
+Memory consumption went from 179.1 MB to 165.2 MB.
+Total: 5.290400 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.266000 ms MarkObjects: 2.620300 ms  DeleteObjects: 2.002900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E89CFD0080 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E9BC010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F975020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F975020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F975020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8916CC010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89CFD0080 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8917DB020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89CFD0080 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FA0A2B0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FA9F020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891981630 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89CFD0080 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5B0B20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FA3B930 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DBA5070 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D007690 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D007690 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Utils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892FED030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8916CC010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8916CC010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891C67C50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8916CC010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FA9F020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E75C040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E38B420 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.Format.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FA9F020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FA9F020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DBF7020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EE45040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90B8C9010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E38B420 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Samples.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E38B420 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E38B420 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F9F8020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\FastSpringBone.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EE45040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8918AD010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F9F8020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EE45040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F9F8020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F9F8020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EA74060 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D4F7020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FAA5430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EE45040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FAA5430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FAA5430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892F78C70 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniVRM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892056060 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EA74060 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EA74060 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EE45040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EA74060 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DA17020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FA0A2B0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7A3C20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892F78C70 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892F81A80 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90B702520 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FAA5430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89FB5B010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DB97E20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892F81A80 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FA2E0C0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E4CC020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DB97E20 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D6E0010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E4CC020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8917357A0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89EA7BC70 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E892E1F010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F6DDA40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E7B0020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F5DA820 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D096010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E7B8E30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.534 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.025 seconds
+Domain Reload Profiling: 2558ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (13.9 MB). Loaded Objects now: 8329.
+Memory consumption went from 296.2 MB to 282.4 MB.
+Total: 9.665000 ms (FindLiveObjects: 1.123200 ms CreateObjectMapping: 0.522000 ms MarkObjects: 3.101600 ms  DeleteObjects: 4.916100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8A49C5E80 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F96D010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E909A6AA30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A4D99B50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F96D010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90ACA8BF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A28C4290 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89D352020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A5415CF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Actions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A53411C0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A56D9010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E891981630 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90ACA8BF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A546D030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A525F0D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A72A1B10 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2904100 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A4980050 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2D799F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A1F5B030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Utils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A4347BF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908ACF040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A531DBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A81B35F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2B47330 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A6DD0BC0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A6669E10 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.UniUnlit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A6669E10 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\PPv2URPConverters.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F96D010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A68E7F70 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A705C6D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A531DBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.Format.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A0026020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90991B430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A205DEA0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90ACA8BF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A55106D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E84C81BF10 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Samples.Editor.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A531DBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2D799F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90906FBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\FastSpringBone.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89DDA5010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8918AD010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908C1E050 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\MToon.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E9096811A0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniHumanoid.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A1EE6230 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90AAF9990 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2544020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniGLTF.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A786C9F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A25BF80 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908C1E050 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A531DBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90B220620 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A1F5B030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F96D010 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UniVRM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A6BF11D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A81B35F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E9083AC030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89F991050 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A81B35F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8938AEED0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A5415CF0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90B4DE020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90FBB7660 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A4D99B50 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E909E4DE40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\SteamVR_Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908ACF040 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A828940 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E870082830 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90A6DFE00 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A7A0F020 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.VRM10.MToon10.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2904100 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E909E4DE40 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A2D799F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRMShaders.GLTF.IO.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908F916D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A81B35F0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E908AEEF00 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A531DBB0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90AA576D0 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E89E9EC030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90991B430 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A1F5B030 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E90907EF30 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A658B000 doesn't match image C:\Users\rui02\unity_project\IVRC\IVRC\Library\ScriptAssemblies\VRM.Tests.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.889 seconds
+Domain Reload Profiling: 2367ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7691 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 193 unused Assets / (13.9 MB). Loaded Objects now: 8333.
+Memory consumption went from 296.3 MB to 282.4 MB.
+Total: 5.083000 ms (FindLiveObjects: 0.450700 ms CreateObjectMapping: 0.299900 ms MarkObjects: 2.494700 ms  DeleteObjects: 1.837200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 340062.943906 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Slim.prefab
-  artifactKey: Guid(d5082f7d9f947374197e0a97786f4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Slim.prefab using Guid(d5082f7d9f947374197e0a97786f4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01283a17fd682efa0a3b69b0e88cffb8') in 0.096590 seconds
+  Time since last request: 813.581848 seconds.
+  path: Assets/Material
+  artifactKey: Guid(8e4d4562c3e23b942bab57499982c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(8e4d4562c3e23b942bab57499982c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b06d6b40563946f3d37a3fffaf5f0') in 0.017896 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 2.fbx
-  artifactKey: Guid(f7b6954ec8fb0de4cbe60b244d54f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 2.fbx using Guid(f7b6954ec8fb0de4cbe60b244d54f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea52f356200c6337f150551207f37b') in 0.381933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 477
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/BuggyController__Controller.mat
-  artifactKey: Guid(4408e8645ee827345aa56eee531f96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/BuggyController__Controller.mat using Guid(4408e8645ee827345aa56eee531f96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264a6c8b44c1c7bd0e83c7d2a5d83a3d') in 0.030224 seconds
+  Time since last request: 13.753969 seconds.
+  path: Assets/Material/Water.mat
+  artifactKey: Guid(35789800c4b4baa4b84149cb1325c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Water.mat using Guid(35789800c4b4baa4b84149cb1325c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30502f207441be18f0a07c7a063d3cfd') in 0.088425 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel.prefab
-  artifactKey: Guid(d07386f0ec952ec409dc7753bcf5746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel.prefab using Guid(d07386f0ec952ec409dc7753bcf5746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d40f585f1d38f685c322065782e1c5') in 0.019215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 88
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx
-  artifactKey: Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Buggy.fbx using Guid(f9203d611b7f1a94ba17ef2ec88e6447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9358e242b1eeaa1621d3e1b5d9fdfc4a') in 0.302752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModelFloppy.prefab
-  artifactKey: Guid(534d2fcf558316441a41841275676807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModelFloppy.prefab using Guid(534d2fcf558316441a41841275676807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4887ad5d0bb9a6df49761b1593e768') in 0.019826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 203
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/ArrowGlint.mat
-  artifactKey: Guid(f3004e0c0e5df074abcb3548fd812bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/ArrowGlint.mat using Guid(f3004e0c0e5df074abcb3548fd812bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c0db03441e9c3f11c3059bcff502aa') in 0.030692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Models/floor.mat
-  artifactKey: Guid(b41d1116a101a84499296ce28d16e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Models/floor.mat using Guid(b41d1116a101a84499296ce28d16e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5f8908a2a287d22f6ec765ec2ea25') in 0.036285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX
-  artifactKey: Guid(959d14bf134f54a6e993fe6ca6e063c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX using Guid(959d14bf134f54a6e993fe6ca6e063c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62287867cb20b0dc37f48bbee6fd990a') in 0.050615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/BalloonPopNoSound.prefab
-  artifactKey: Guid(a41945a8549c580408301691c2fd374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/BalloonPopNoSound.prefab using Guid(a41945a8549c580408301691c2fd374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a1e22b4eba54b919f9422c638d14e0') in 0.029792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonColor.mat
-  artifactKey: Guid(406981998f1234442a4f2eb50cfe07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonColor.mat using Guid(406981998f1234442a4f2eb50cfe07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddfbf36c69e234d1262ef912e5186b3') in 0.193299 seconds
+  Time since last request: 204.084452 seconds.
+  path: Assets/Material/Water.mat
+  artifactKey: Guid(35789800c4b4baa4b84149cb1325c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Water.mat using Guid(35789800c4b4baa4b84149cb1325c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4229a0ab7fe470105a0669cc31acfb3') in 0.016863 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Materials/flowerMatOp.mat
-  artifactKey: Guid(d353000128b08f043bdec7830acdb165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/flowerMatOp.mat using Guid(d353000128b08f043bdec7830acdb165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed865aeb009c7f7fa7985f1b605b7def') in 0.012013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdle.fbx
-  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef15e5f9a5349d3137213888486c247') in 0.004137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 157
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurnSharp.fbx
-  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96b02dbc1c0cb00fa7c908d012b056') in 0.004594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 158
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Materials/HoverHighlight.mat
-  artifactKey: Guid(7b939e5e799d98a469f594828ebab52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Materials/HoverHighlight.mat using Guid(7b939e5e799d98a469f594828ebab52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa04fc853482fbdc65da88a5767d0af3') in 0.080997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat
-  artifactKey: Guid(4a91f2f2fa6c34023a979b7c09f122fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Materials/Dummy Ghost.mat using Guid(4a91f2f2fa6c34023a979b7c09f122fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58298d5c86221307c79be91913dc6212') in 0.207436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Lightcone.fbx
-  artifactKey: Guid(43c6bdf072a75974186a41645b0aaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Lightcone.fbx using Guid(43c6bdf072a75974186a41645b0aaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59950906344deacfa000bd5a1c8a0fab') in 0.015890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurn.fbx
-  artifactKey: Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidRunTurn.fbx using Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e412f0bedc3055b6c31edd1eca29fe') in 0.004476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SteamVR/Prefabs/[SteamVR].prefab
-  artifactKey: Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Prefabs/[SteamVR].prefab using Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657efaf49e0d3790059324b2390da1d5') in 0.002376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat
-  artifactKey: Guid(54da18ba3126f1343924588562df72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ground.mat using Guid(54da18ba3126f1343924588562df72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5a6b31044da9ae0970e072198c2d27') in 0.012212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx
-  artifactKey: Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Arrow.fbx using Guid(56377e28a47008245871ca7b435044c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3c485ad650a60fd06ae7954748727b') in 0.026427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SteamVR/InteractionSystem/Hints/Prefabs/ControllerTextHint.prefab
-  artifactKey: Guid(5fa42bb9e52706a42b8a1eaf0b54326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Hints/Prefabs/ControllerTextHint.prefab using Guid(5fa42bb9e52706a42b8a1eaf0b54326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b062a504c8acc17e103950f78e3d2c') in 0.023579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/HandColliderRight.prefab
-  artifactKey: Guid(2f378ddf4e9373548a3708d26c1d75a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/HandColliderRight.prefab using Guid(2f378ddf4e9373548a3708d26c1d75a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e34a4fce96afdaf774b13f7e55ab47a') in 0.003517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 59
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_World.mat
-  artifactKey: Guid(e40a129e14e378c4db040df3fd4a6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_World.mat using Guid(e40a129e14e378c4db040df3fd4a6077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f930213c62352051a9d9d950c7884914') in 0.204982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.979664 seconds.
-  path: Assets/Rock Package/Texture/T_Rock_02_D.TGA
-  artifactKey: Guid(be484fbbcf8571e4891ac9d862635c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Texture/T_Rock_02_D.TGA using Guid(be484fbbcf8571e4891ac9d862635c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12a3c39278cd3ab9cdd1c7e07b1a78a') in 0.034227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Rock Package/Texture/T_Rock_04_D.TGA
-  artifactKey: Guid(992f8426259e8f64985d1e26628e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Texture/T_Rock_04_D.TGA using Guid(992f8426259e8f64985d1e26628e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa3f3c163bad61bd80dfc15ccbc9db8') in 0.022305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Rock Package/Texture/T_Rock_04_N.TGA
-  artifactKey: Guid(3b463d7df9e48e24a94cf0033cb321d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Texture/T_Rock_04_N.TGA using Guid(3b463d7df9e48e24a94cf0033cb321d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2cfc587fbec2f6158e7434562983a3') in 0.022097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.243791 seconds.
-  path: Assets/Rock Package/Prefabs/Rock_03.prefab
-  artifactKey: Guid(75fa8bf3a73ee6b4da0c7a2c6d3db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package/Prefabs/Rock_03.prefab using Guid(75fa8bf3a73ee6b4da0c7a2c6d3db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76428fba8a85cfee89e1412e46213013') in 0.091054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
