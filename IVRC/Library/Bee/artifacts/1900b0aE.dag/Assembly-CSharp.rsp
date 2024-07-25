@@ -402,6 +402,8 @@
 "Assets/SAColliderBuilder/Scripts/SAMeshCollider.cs"
 "Assets/SAColliderBuilder/Scripts/SAMeshColliderBuilder.cs"
 "Assets/Scripts/FirstPersonSetup.cs"
+"Assets/Scripts/MicAudioFallDown.cs"
+"Assets/Scripts/MicAudioSource.cs"
 -langversion:9.0
 
 /deterministic
