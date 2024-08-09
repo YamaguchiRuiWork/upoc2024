@@ -48,6 +48,7 @@ public class MicAudioSource : MonoBehaviour
 
         //バッファ内の平均振幅を取得（絶対値を平均する）
         float audioLevel = waveData.Average(Mathf.Abs);
+        Debug.Log(audioLevel);
         m_Cube.transform.localScale = new Vector3(1, 1 + m_AmpGain * audioLevel, 1);//ここでキューブの大きさを変更させている
     }
 
