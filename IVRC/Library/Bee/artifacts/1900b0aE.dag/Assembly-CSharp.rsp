@@ -405,6 +405,7 @@
 "Assets/Scripts/MicAudioFallDown.cs"
 "Assets/Scripts/MicAudioFallDownTrees.cs"
 "Assets/Scripts/MicAudioSource.cs"
+"Assets/Scripts/SpawnRandomRotation.cs"
 "Assets/Scripts/VRRecenter.cs"
 -langversion:9.0
 

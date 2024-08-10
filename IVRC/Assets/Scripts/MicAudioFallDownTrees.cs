@@ -64,7 +64,7 @@ public class MicAudioFallDownTrees : MonoBehaviour
         float audioLevel = waveData.Average(Mathf.Abs);
         //m_Cube.transform.localScale = new Vector3(1, 1 + m_AmpGain * audioLevel, 1);
         //Debug.Log(audioLevel);
-        if (m_AmpGain * audioLevel > AudioScale)
+        if (m_AmpGain * audioLevel > AudioScale && TreeNumber < TreeNumberMax)
         {
             anim = Treearray[TreeNumber].GetComponent<Animator>();
             anim.SetBool("FallDownFlag", true);

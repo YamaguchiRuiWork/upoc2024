@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class MicAudioFallDown : MonoBehaviour
 {
+    /*
     [SerializeField] private string m_DeviceName;
+    */
     [SerializeField] private MicAudioFallDownTrees DownTrees;
+
     private int treenumber = 0;
     private int treenumbermax;
+    [SerializeField] AudioClip[] clips;
+    [SerializeField] float pitchRange = 0.1f;
+    protected AudioSource source;
+    /*
     private const int SAMPLE_RATE = 48000;
     private const float MOVING_AVE_TIME = 0.05f;
     private Animator anim;  //AnimatorÇanimÇ∆Ç¢Ç§ïœêîÇ≈íËã`Ç∑ÇÈ
@@ -22,14 +30,16 @@ public class MicAudioFallDown : MonoBehaviour
     //[SerializeField] private GameObject m_Cube;
     [SerializeField, Range(10, 300)] private float m_AmpGain = 100;
     [SerializeField] private float AudioScale;
-
+    */
     private void Awake()
     {
-        m_MicAudioSource = GetComponent<AudioSource>();
+        //m_MicAudioSource = GetComponent<AudioSource>();
+        source = GetComponents<AudioSource>()[0];
     }
 
     void Start()
     {
+        /*
         string targetDevice = "";
 
         foreach (var device in Microphone.devices)
@@ -44,9 +54,11 @@ public class MicAudioFallDown : MonoBehaviour
         Debug.Log($"=== Device Set: {targetDevice} ===");
         MicStart(targetDevice);
         anim = gameObject.GetComponent<Animator>();
+        */
         treenumbermax = DownTrees.TreeNumberMaxGetter();
+        Debug.Log(treenumbermax);
     }
-
+    /*
     void Update()
     {
         if (!m_MicAudioSource.isPlaying) return;
@@ -79,7 +91,7 @@ public class MicAudioFallDown : MonoBehaviour
         while (!(Microphone.GetPosition("") > 0)) { }
 
         m_MicAudioSource.Play();
-    }
+    }*/
 
     void DestroyTree()
     {
@@ -90,12 +102,18 @@ public class MicAudioFallDown : MonoBehaviour
     void AddTreeNumber()
     {
         //Debug.Log("next");
-        //treenumber = DownTrees.TreeNumberGetter();
-        if (treenumber < 2)
+        treenumber = DownTrees.TreeNumberGetter();
+        if (treenumber < treenumbermax)
         {
             treenumber++;
             DownTrees.TreeNumberSetter(treenumber);
             Debug.Log(treenumber);
         }
+    }
+
+    void PlayFallDownSE()
+    {
+        source.pitch = 1.0f + Random.Range(-pitchRange, pitchRange);
+        source.PlayOneShot(clips[Random.Range(0, clips.Length)]);
     }
 }
