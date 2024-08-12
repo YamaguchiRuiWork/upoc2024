@@ -236,7 +236,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2
+  - time: 0.98333335
     functionName: AddTreeNumber
     data: 
     objectReferenceParameter: {fileID: 0}

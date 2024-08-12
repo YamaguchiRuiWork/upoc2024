@@ -44,6 +44,7 @@ public class MicAudioFallDownTrees : MonoBehaviour
 
         Debug.Log($"=== Device Set: {targetDevice} ===");
         MicStart(targetDevice);
+        Shuffle(Treearray);
         //nowTime = 0;
         //anim = gameObject.GetComponent<Animator>();
         //anim = Treearray[TreeNumber].GetComponent<Animator>();
@@ -106,6 +107,17 @@ public class MicAudioFallDownTrees : MonoBehaviour
     {
         // _piyopiyo‚É’l‚ð‘ã“ü‚·‚é
         TreeNumber = value;
+    }
+
+    void Shuffle(GameObject[] num)
+    {
+        for (int i = 0; i < num.Length; i++)
+        {
+            GameObject temp = num[i]; // Œ»Ý‚Ì—v‘f‚ð—a‚¯‚Ä‚¨‚­
+            int randomIndex = Random.Range(0, num.Length); // “ü‚ê‘Ö‚¦‚éæ‚ðƒ‰ƒ“ƒ_ƒ€‚É‘I‚Ô
+            num[i] = num[randomIndex]; // Œ»Ý‚Ì—v‘f‚Éã‘‚«
+            num[randomIndex] = temp; // “ü‚ê‘Ö‚¦Œ³‚É—a‚¯‚Ä‚¨‚¢‚½—v‘f‚ð—^‚¦‚é
+        }
     }
     /*void DestroyTree()
     {
