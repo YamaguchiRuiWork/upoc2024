@@ -58,6 +58,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/TriggerR",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TriggerL",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

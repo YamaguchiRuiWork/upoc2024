@@ -12,9 +12,11 @@ public class SliderController : MonoBehaviour
 
     public SteamVR_ActionSet playerOperationActionset;
     public SteamVR_Input_Sources handTypeL;
+    public SteamVR_Input_Sources handTypeR;
     public SteamVR_Action_Boolean TriggerL;
-    public SteamVR_Action_Boolean ButtonY;
-    public SteamVR_Action_Boolean ButtonX;
+    public SteamVR_Action_Boolean TriggerR;
+    //public SteamVR_Action_Boolean ButtonY;
+    //public SteamVR_Action_Boolean ButtonX;
     //public SteamVR_Action_Boolean Y;
     //public SteamVR_Action_Boolean X;
     Slider slider;
@@ -32,11 +34,12 @@ public class SliderController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ButtonY.GetStateDown(handTypeL))
+        if (TriggerR.GetStateDown(handTypeR))
         {
-            Debug.Log("ButtonY");
+            Debug.Log("R");
             SliderValue = (int)(slider.value + speedY);
             slider.value = SliderValue;
+            Debug.Log(slider.value);
         }
         /*else if (Y.GetState(handTypeL))//’·‰Ÿ‚µ
         {
@@ -44,9 +47,9 @@ public class SliderController : MonoBehaviour
             SliderValue = (int)(slider.value + speedY);
             slider.value = SliderValue;
         }*/
-        else if (ButtonX.GetStateDown(handTypeL))
+        else if (TriggerL.GetStateDown(handTypeL))
         {
-            Debug.Log("ButtonX");
+            Debug.Log("L");
             SliderValue = (int)(slider.value - speedX);
             slider.value = SliderValue;
         }
