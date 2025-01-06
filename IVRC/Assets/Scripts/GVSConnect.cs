@@ -12,7 +12,10 @@ public class GVSConnect : MonoBehaviour
     // Arduinoとの通信レート
     [SerializeField] private int baudRate = 9600;
 
+    // private float current;
     private float current;
+    // byte sendByte = 0;
+    //public SerialHandler SerialHandler;
 
     private bool changeFlg = false;
 
@@ -41,11 +44,12 @@ public class GVSConnect : MonoBehaviour
 
     public void SetCurrent(float c)
     {
-        if (current != c)
-        {
-            current = c;
-            changeFlg = true;
-        }
+        //if (current != c)
+        //{
+        current = c;
+        changeFlg = true;
+        Debug.Log("aaa");
+        //}
     }
 
     private void SendSignalToArduino()
@@ -53,6 +57,7 @@ public class GVSConnect : MonoBehaviour
         // Arduinoに信号を送信（終端文字 '\n' を付加）
         Debug.Log("current : " + current);
         sendBytes = BitConverter.GetBytes(current);
+        //sendBytes = current;
         serialPort.Write(sendBytes, 0, 4);
         changeFlg = false;
     }
@@ -60,6 +65,8 @@ public class GVSConnect : MonoBehaviour
 
     private void OnApplicationQuit()
     {
+        SetCurrent(0);
+        SendSignalToArduino(); // 0であることをArduinoに明示的に伝える
         // アプリケーション終了時にシリアルポートを閉じる
         if (serialPort != null && serialPort.IsOpen)
         {
